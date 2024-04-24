@@ -37,7 +37,7 @@ let inventorySlots = [];
 let movedToInventoryItemCharNames = [];
 let mainSceneItemsInInventory = [];
 // set scene temporarily
-export let currentScene = scenes[1];
+export let currentScene = scenes[0];
 alterScenes();
 function alterScenes(scene = 0){
   let curScene = scene > 0 ? scene : 0;
